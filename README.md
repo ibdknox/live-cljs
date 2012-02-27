@@ -4,6 +4,8 @@ An implementation of Bret Victor's neat live game editor in Clojurescript
 
 ## Usage
 
+**Works best in Chrome. It runs in FF, but the mouse events don't work**
+
 ```bash
 lein run
 ```
