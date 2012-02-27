@@ -4,6 +4,11 @@
                  [noir "1.3.0-alpha7"]
                  [congomongo "0.1.7"]
                  [org.clojure/clojurescript "0.0-971"]
+                 [monet "0.1.0-SNAPSHOT"]
+                 [waltz "0.1.0-SNAPSHOT"]
+                 [fetch "0.1.0-SNAPSHOT"]
+                 [jayq "0.1.0-SNAPSHOT"]
+                 [crate "0.1.0-SNAPSHOT"]
                  [ibdknox/clojail "0.5.2"]
                  ]
   :cljsbuild {:repl-listen-port 9001
@@ -17,4 +22,5 @@
                            "resources/externs/codemirror.js"],
                  :pretty-print true}}]}
   :main coding.server)
+
 
