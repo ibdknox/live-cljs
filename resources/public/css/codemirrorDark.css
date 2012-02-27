@@ -1,0 +1,107 @@
+.CodeMirror {
+  line-height: 1.15em;
+  font-family: "Courier New";
+}
+
+.CodeMirror-scroll {
+  overflow: auto;
+  height: 630px;
+  /* This is needed to prevent an IE[67] bug where the scrolled content
+     is visible outside of the scrolling box. */
+  position: relative;
+}
+
+.CodeMirror-gutter {
+  position: absolute; left: 0; top: 0;
+  z-index: 10;
+  background-color: #f0f0f0;
+  border-right: 0px solid #dfdfdf;
+  min-width: 2em;
+  padding-right:5px;
+  height: 100%;
+}
+.CodeMirror-gutter-text {
+  color: #aaa;
+  text-align: right;
+  padding: .4em .2em .4em .4em;
+  white-space: pre !important;
+}
+.CodeMirror-lines {
+  padding: .4em;
+  padding-left: 1em;
+}
+
+.CodeMirror pre {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border-width: 0; margin: 0; padding: 0; background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0; margin: 0;
+  white-space: pre;
+  word-wrap: normal;
+}
+
+.CodeMirror-wrap pre {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+.CodeMirror-wrap .CodeMirror-scroll {
+  overflow-x: hidden;
+}
+
+.CodeMirror textarea {
+  outline: none !important;
+}
+
+.CodeMirror pre.CodeMirror-cursor {
+  z-index: 10;
+  position: absolute;
+  visibility: hidden;
+  border-left: 1px solid #b2b2b2;
+}
+.CodeMirror-focused pre.CodeMirror-cursor {
+  visibility: visible;
+}
+
+span.CodeMirror-selected { background: #d9d9d9; }
+.CodeMirror-focused span.CodeMirror-selected { background: #d2dcf8; }
+
+.CodeMirror-searching {background: #ffa;}
+
+/* Default theme */
+
+.cm-s-default span.cm-keyword {color: #a3d;}
+.cm-s-default span.cm-atom {color: #69c;}
+.cm-s-default span.cm-number {color: #69c;}
+.cm-s-default span.cm-def {color: #00f;}
+.cm-s-default span.cm-variable {color: #a2a2a2;}
+.cm-s-default span.cm-variable-2 {color: #05a;}
+.cm-s-default span.cm-variable-3 {color: #085;}
+.cm-s-default span.cm-property {color: #a2a2a2;}
+.cm-s-default span.cm-operator {color: #a2a2a2;}
+.cm-s-default span.cm-comment {color: #888;}
+.cm-s-default span.cm-string {color: #69c;}
+.cm-s-default span.cm-string-2 {color: #f55;}
+.cm-s-default span.cm-meta {color: #555;}
+.cm-s-default span.cm-error {color: #f00;}
+.cm-s-default span.cm-qualifier {color: #555;}
+.cm-s-default span.cm-builtin {color: #0a8;}
+.cm-s-default span.cm-bracket {color: #999;}
+.cm-s-default span.cm-tag {color: #a6c;}
+.cm-s-default span.cm-attribute {color: #00c;}
+.cm-s-default span.cm-header {color: #a0a;}
+.cm-s-default span.cm-quote {color: #090;}
+.cm-s-default span.cm-hr {color: #999;}
+.cm-s-default span.cm-link {color: #00c;}
+
+span.cm-header, span.cm-strong {font-weight: bold;}
+span.cm-em {font-style: italic;}
+span.cm-emstrong {font-style: italic; font-weight: bold;}
+span.cm-link {text-decoration: underline;}
+
+div.CodeMirror span.CodeMirror-matchingbracket {color: #68f; background:#3d4d6d;}
+div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
+

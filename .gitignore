@@ -1,0 +1,9 @@
+pom.xml
+*jar
+/lib/
+/classes/
+.lein-deps-sum
+src/pinot*
+src/noir*
+cljs-macros*
+.repl*
