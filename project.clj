@@ -21,6 +21,6 @@
                  :externs ["checkouts/jayq/resources/externs/jquery.js"
                            "resources/externs/codemirror.js"],
                  :pretty-print true}}]}
-  :main coding.server)
+  :main ^{:skip-aot true} coding.server)
 
 
