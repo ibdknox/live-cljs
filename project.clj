@@ -21,6 +21,8 @@
                  :externs ["checkouts/jayq/resources/externs/jquery.js"
                            "resources/externs/codemirror.js"],
                  :pretty-print true}}]}
+  :aot [coding.server]
+  :uberjar-exclusions [#"cljs/.*\.class"]
   :main ^{:skip-aot true} coding.server)
 
 

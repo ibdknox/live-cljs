@@ -1,4 +1,5 @@
 (ns coding.server
+  (:gen-class)
   (:require [noir.server :as server]
             [coding.models.box :as box]
             [cljs.compiler :as comp]))
