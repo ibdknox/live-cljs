@@ -2,7 +2,7 @@ body { padding: 75px 80px; background: #454545; background:url("/img/black-Linen
 
 a {text-decoration:none; color: #b2b2b2; }
 
-#wrapper { float:left; display:inline; width: 100%; }
+#wrapper { float:left; display:inline; width: 1340px; }
 
 #header { float:left; display:inline; width:100%; margin-bottom:50px;  }
 #header ul { font-size: 24px; list-style:none; }
